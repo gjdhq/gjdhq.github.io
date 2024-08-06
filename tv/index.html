@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Red Theme Website</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #f8d7da;
+    }
+    .navbar {
+      background-color: #c82333;
+    }
+    .navbar-brand, .nav-link {
+      color: #ffffff !important;
+    }
+    .btn-custom {
+      background-color: #c82333;
+      color: #ffffff;
+      border: none;
+    }
+    .btn-custom:hover {
+      background-color: #a71d2a;
+      color: #ffffff;
+    }
+    .header {
+      background-color: #c82333;
+      color: #ffffff;
+      padding: 100px 0;
+      text-align: center;
+    }
+    .content {
+      padding: 50px 0;
+    }
+    .footer {
+      background-color: #343a40;
+      color: #ffffff;
+      padding: 20px 0;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand" href="#">
+      <img src="icona.png" alt="Logo" width="30" height="30" class="d-inline-block align-top">
+      Nome Azienda
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Servizi</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contatti</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="header">
+    <div class="container">
+      <h1>Benvenuti al Nostro Sito</h1>
+      <p class="lead">Scopri i nostri servizi e contattaci per maggiori informazioni.</p>
+      <a href="#" class="btn btn-custom">Scopri di più</a>
+    </div>
+  </header>
+
+  <section class="content">
+    <div class="container">
+      <!-- Esempio di alert Bootstrap -->
+      <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        <strong>Attenzione!</strong> Questo è un avviso importante. Assicurati di leggere tutte le informazioni.
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      
+      <!-- Esempio di link -->
+      <p>Per maggiori dettagli, visita la nostra <a href="#" class="text-danger">pagina di informazioni</a>.</p>
+
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Servizio 1</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum.</p>
+        </div>
+        <div class="col-md-4">
+          <h2>Servizio 2</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum.</p>
+        </div>
+        <div class="col-md-4">
+          <h2>Servizio 3</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2024 Red Theme Website. Tutti i diritti riservati.</p>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
