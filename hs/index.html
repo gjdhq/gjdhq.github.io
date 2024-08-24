@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Globale</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            word-wrap: break-word;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .navbar {
+            background-color: #003399;
+            color: #fff;
+            padding: 10px 0;
+        }
+
+        .navbar .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .navbar h1 {
+            margin: 0;
+        }
+
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        .navbar ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.5em;
+        }
+        
+        .navbar ul li img {
+            height: 1.5em;
+            vertical-align: middle;
+        }
+
+        .main-content {
+            display: flex;
+            flex-wrap: wrap; /* Consente alle colonne di andare su una nuova riga se necessario */
+            gap: 20px; /* Spaziatura tra le colonne */
+        }
+
+        .column {
+            flex: 1;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .column.left {
+            background-color: #f0f0f0;
+        }
+
+        .column.right {
+            background-color: #e0e0e0;
+        }
+
+        .frame {
+            width: 100%;
+            height: 500px; /* Altezza del frame, puoi modificarla come preferisci */
+            border: 2px solid #003399; /* Colore e larghezza del bordo del frame */
+            box-sizing: border-box;
+        }
+
+        footer {
+            background-color: #003399;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        @media (max-width: 768px) {
+            .main-content {
+                flex-direction: column;
+            }
+
+            .column {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="navbar">
+        <div class="container">
+            <h1>Pagina Globale</h1>
+            <nav>
+                <ul>
+                    <li><a href="https://www.youtube.com/@only_idk_me"><img src="https://brandlogos.net/wp-content/uploads/2021/11/youtube-music-logo-1.png" alt="YouTube Icon"></a></li>
+                    <li><a href="https://gabrieljonesupdates.medium.com/"><img src="https://seeklogo.com/images/M/medium-logo-F0ACFCCD58-seeklogo.com.png" alt="Medium Icon"></a></li>
+                    <li><a href="https://www.onlygabbyme.it/home">OnlyGabbyMe</a></li>
+                    <li><a href="https://gabrielsystem.altervista.org/">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <section class="column left">
+            <iframe src="https://bit.ly/4dEDE0O" class="frame" title="Frame Esterno"></iframe>
+                    <h2>HS</h2>
+            <p>Questo è un sito web fondato il 24 agosto 2024, che si impegna a rispettare gli obiettivi dell'accessibilità a GJD imposti da GJDEV (reparto esterno)</p>
+        </section>
+        <section class="column right">
+            <h2>Informazioni del sito</h2>
+                    <ul>
+                      <li>Humanity service</li>
+                      <li>Data di creazione ufficiale : 24 agosto 2024</li>
+                      <li>Creato da Gabriel Jones</li>
+                      <li>email aziendale : gabriel.jones@mail.urp.gjdev.it</li>
+                      <li>Tipo di sito : reindirizzamento</li>
+                      <li>Hosting : github</li>
+                    </ul>
+</section>
+    </main>
+
+    <footer>
+        <p>Versione 0.1.8</p>
+        <p>&copy; 2024 GC-SS. Tutti i diritti riservati. Powered by GS</p>
+    </footer>
+</body>
+</html>
